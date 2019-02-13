@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "name": "Netpincer.hu - Re-Arrange",
+  "version": "1.0.0",
+  "browser_action": {
+    "default_icon": {
+      "19": "assets/images/icon19.jpg",
+      "38": "assets/images/icon38.jpg"
+    },
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "assets/images/icon16.jpg",
+    "48": "assets/images/icon48.jpg",
+    "128": "assets/images/icon128.jpg"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://netpincer.hu/*",
+        "http://netpincer.hu/*",
+        "https://www.netpincer.hu/*",
+        "http://www.netpincer.hu/*"
+      ],
+      "js": [
+        "assets/js/content.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "storage"
+  ]
+}

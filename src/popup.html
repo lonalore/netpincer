@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Netpincer.hu - Re-Arrange</title>
+</head>
+<body>
+
+<div class="main-container">
+  <div class="main-content">
+    <div class="tab-content" id="main-tabs">
+      <div class="tab-pane fade show active list-container" id="main-tabs-1" role="tabpanel" aria-labelledby="main-tabs-1">
+        <fieldset class="form-group">
+          <legend class="form-text" data-translate="Order by"></legend>
+
+          <div class="list-group">
+            <label class="list-group-item list-group-item-action flex-column align-items-start">
+              <span class="d-flex w-100 justify-content-between">
+                <span class="setting-label" data-translate="Name"></span>
+                <span class="switch-container pull-right">
+                  <input class="toggle-input toggle-input-round-flat widget-order-by" type="checkbox" name="order_by[]" value="name"/>
+                  <span class="toggle-switch"></span>
+                </span>
+              </span>
+              <small class="text-muted" data-translate="Sort by name, alphabetically."></small>
+            </label>
+            <label class="list-group-item list-group-item-action flex-column align-items-start">
+              <span class="d-flex w-100 justify-content-between">
+                <span class="setting-label" data-translate="Rating"></span>
+                <span class="switch-container pull-right">
+                  <input class="toggle-input toggle-input-round-flat widget-order-by" type="checkbox" name="order_by[]" value="rating"/>
+                  <span class="toggle-switch"></span>
+                </span>
+              </span>
+              <small class="text-muted" data-translate="Sort by rating, in descending order."></small>
+            </label>
+            <label class="list-group-item list-group-item-action flex-column align-items-start">
+              <span class="d-flex w-100 justify-content-between">
+                <span class="setting-label" data-translate="Delivery Cost"></span>
+                <span class="switch-container pull-right">
+                  <input class="toggle-input toggle-input-round-flat widget-order-by" type="checkbox" name="order_by[]" value="cost"/>
+                  <span class="toggle-switch"></span>
+                </span>
+              </span>
+              <small class="text-muted" data-translate="Sort by delivery cost, in ascending order."></small>
+            </label>
+            <label class="list-group-item list-group-item-action flex-column align-items-start">
+              <span class="d-flex w-100 justify-content-between">
+                <span class="setting-label" data-translate="Minimum order"></span>
+                <span class="switch-container pull-right">
+                  <input class="toggle-input toggle-input-round-flat widget-order-by" type="checkbox" name="order_by[]" value="min"/>
+                  <span class="toggle-switch"></span>
+                </span>
+              </span>
+              <small class="text-muted" data-translate="Sort by minimum order, in ascending order."></small>
+            </label>
+          </div>
+        </fieldset>
+      </div>
+
+      <div class="tab-pane fade list-container" id="main-tabs-2" role="tabpanel" aria-labelledby="main-tabs-2">
+        <fieldset class="form-group">
+          <legend class="form-text" data-translate="Settings"></legend>
+
+          <div class="list-group">
+            <label class="list-group-item list-group-item-action flex-column align-items-start">
+              <span class="d-flex w-100 justify-content-between">
+                <span class="setting-label" data-translate="Only open"></span>
+                <span class="switch-container pull-right">
+                  <input class="toggle-input toggle-input-round-flat widget-settings-open" type="checkbox" name="settings[]" value="open"/>
+                  <span class="toggle-switch"></span>
+                </span>
+              </span>
+              <small class="text-muted" data-translate="Only restaurants that are currently open."></small>
+            </label>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+
+  <div class="navigation">
+    <ul class="nav nav-pills no-gutters" id="main-tabs-nav" role="tablist">
+      <li class="nav-item col">
+        <a class="nav-link active" id="main-tabs-1-tab" data-toggle="pill" href="#main-tabs-1" role="tab" aria-controls="main-tabs-1" aria-selected="true">
+          <i class="fa fa-sort" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li class="nav-item col">
+        <a class="nav-link" id="main-tabs-2-tab" data-toggle="pill" href="#main-tabs-2" role="tab" aria-controls="main-tabs-2" aria-selected="true">
+          <i class="fa fa-cog" aria-hidden="true"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<script src="assets/js/popup.js"></script>
+
+</body>
+</html>
