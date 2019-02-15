@@ -20,7 +20,9 @@
         "https://netpincer.hu/*",
         "http://netpincer.hu/*",
         "https://www.netpincer.hu/*",
-        "http://www.netpincer.hu/*"
+        "http://www.netpincer.hu/*",
+        "https://english.netpincer.hu/*",
+        "http://english.netpincer.hu/*"
       ],
       "js": [
         "assets/js/content.js"

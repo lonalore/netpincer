@@ -1,7 +1,7 @@
 {
-  "name": "spo0kyd",
+  "name": "Netpincer",
   "version": "1.0.0",
-  "description": "nCore - SpOoKy DaYz...",
+  "description": "Browser extension (tested with Chrome) containing helper tools to re-arrange restaurants on Netpincer.hu website.",
   "private": true,
   "scripts": {
     "start": "http-server ./build -p 9000",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://lonalore@bitbucket.org/lonalore/spo0kyd.git"
+    "url": "git+https://github.com/lonalore/netpincer.git"
   },
-  "author": "Lóna Lore",
+  "author": "lonalore",
   "license": "GPL2",
   "bugs": {
-    "url": "https://bitbucket.org/lonalore/spo0kyd/issues"
+    "url": "https://github.com/lonalore/netpincer/issues"
   },
-  "homepage": "https://bitbucket.org/lonalore/spo0kyd/src",
+  "homepage": "https://github.com/lonalore/netpincer",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
