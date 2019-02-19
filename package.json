@@ -1,5 +1,5 @@
 {
-  "name": "Netpincer",
+  "name": "netpincer_rearrange",
   "version": "1.0.0",
   "description": "Browser extension (tested with Chrome) containing helper tools to re-arrange restaurants on Netpincer.hu website.",
   "private": true,

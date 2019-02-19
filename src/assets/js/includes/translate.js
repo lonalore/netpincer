@@ -54,9 +54,9 @@ export default class Translate {
         en: 'Sort by minimum order, in ascending order.',
         hu: 'Minimum rendelés szerint, növekvő sorrendben.',
       },
-      'Settings': {
-        en: 'Settings',
-        hu: 'Beállítás',
+      'Filters': {
+        en: 'Filters',
+        hu: 'Szűrők',
       },
       'Only open': {
         en: 'Only open',
@@ -65,6 +65,10 @@ export default class Translate {
       'Only restaurants that are currently open.': {
         en: 'Only restaurants that are currently open.',
         hu: 'Csak azok az éttermek, amik nyitva vannak.',
+      },
+      'Info': {
+        en: 'Info',
+        hu: 'Info',
       },
     };
   }
